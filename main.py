@@ -835,6 +835,7 @@ async def run_processes():
 
     p2.start()
     p2.join()
+
     p3.start()
     p3.join()
 
